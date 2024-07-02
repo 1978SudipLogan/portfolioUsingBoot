@@ -4,4 +4,5 @@ function welcome() {
     let text = document.getElementById("sub");
     text.style.backgroundColor = "rgb(235, 114, 114)";
     text.style.color = "black";
+
 }
