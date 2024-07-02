@@ -24,7 +24,6 @@
 
 <body>
     <section class="head" id="header">
-
         <div class="container-fluid ">
             <div class="container">
                 <div class="row row-cols-2 head1">
@@ -172,7 +171,8 @@
                     <label for="message">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block mt-3 ">Submit</button>
+                <button type="submit" onclick="welcome()" class="btn btn-primary btn-block mt-3 "
+                    id="sub">Submit</button>
             </form>
         </div>
     </section>
@@ -184,6 +184,8 @@
             </div>
         </footer>
     </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
