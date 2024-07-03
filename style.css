@@ -48,7 +48,8 @@ ul li a {
 
 ul li a:hover {
     /* background-color: rgb(251, 247, 247); */
-    color: rgb(32, 5, 169);
+    color: rgb(2, 59, 75);
+    /* color: rgb(0, 74, 74); */
     padding: 2px;
     font-size: 1.5em;
     font-weight: 500;
