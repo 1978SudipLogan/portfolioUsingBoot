@@ -34,3 +34,51 @@ modeBtn.addEventListener("click", () => {
 }
 );
 
+
+// function showBio() {
+//     document.querySelectorAll('.bio').forEach(section => {
+//         if (window.innerWidth <= '600') {
+//             section.style.fontSize = '1.7em';
+//             section.style.textAlign = 'center';
+//             section.style.position = 'relative';
+//             section.style.left = '60px';
+//             section.style.top = '80px';
+//             section.style.width = '80vw';
+//         }
+//         else {
+//             section.style.fontSize = '';
+//             section.style.textAlign = '';
+//             section.style.position = '';
+//             section.style.left = '';
+//             section.style.top = '';
+//         }
+//     })
+
+
+//     document.querySelectorAll('.styling_navbar').forEach(section => {
+//         if (window.innerWidth < 600) {
+//             section.style.fontSize = '0.6em';
+//             // section.style.marginLeft = '5px';
+//             section.style.margin = '2px';
+//             section.style.width = '350px'
+//             section.style.position = 'absolute';
+//             section.style.right = '55px';
+//         }
+//         else {
+//             section.style.fontSize = '';
+//             // section.style.marginLeft = '5px';
+//             section.style.margin = '';
+//             section.style.width = ''
+//             section.style.position = '';
+//             section.style.right = '';
+//         }
+//     })
+
+// }
+
+
+
+
+
+// window.addEventListener('load', showBio);
+// window.addEventListener('resize', showBio);
